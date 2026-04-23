@@ -248,10 +248,10 @@ font-size: 18px;
   margin:30px 0px 10px 0;
 display: flex;
 justify-content: center;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 flex-direction: row;
-gap: 150px;
+
 padding-top:25px;
 text-decoration: none;
 
@@ -271,20 +271,21 @@ text-decoration: none;
     /* width: 25rem; */
     
     justify-content: space-evenly;
-    gap: 150px;
+    /* gap: 150px;n */
     align-items: center;
 }
 .find{
-  display:inline-flexbox;
- 
     justify-content: space-between;
-   padding: ;
+   padding: 5px;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+    width: 200px;
 }
 
 .find li{
-max: width 200px;;
+    width :200px;
     display: flex;
-    flex-wrap: 2;
+    flex-wrap:wrap;
     justify-content: space-around;
 
 }
