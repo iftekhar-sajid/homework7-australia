@@ -1,0 +1,304 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 2;
+  
+}
+
+.logo{
+ height:50px;
+ justify-self: end;
+ padding-left: 25px;
+
+}
+
+.navbar{
+    display: flex;
+     font-size:25px;
+    gap: 30px;
+    text-align: center;
+    text-decoration:;
+}
+
+.navbar a{
+ font-size: 20px ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.icon {
+
+height: 30px;;
+padding-right:15px ;
+}
+.banner{
+    width: 100%;
+    
+}
+.banner2{
+    /* width: 100%; */
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  border-radius: 15px;
+   
+}
+
+.bannertx{
+display: flex;
+justify-content:center;
+justify-content:space-between ;
+color: white;
+align-items:end;
+font-size: 14px;
+padding-bottom: 5px;
+bottom: 30px;
+}
+
+main{
+    margin:-35px 2% ;
+    padding:5% 2px ;
+    background-color: #fff;
+    position: relative;
+    top: -20px;
+    z-index: 10px;
+
+
+}
+
+.hero{
+   margin: 10px 10% ;
+   padding-bottom: 30px;
+
+}
+.hero1{
+ display: flex;
+ justify-content:space-between;
+ padding: 5px;
+
+}
+.hero1img{
+   height:240px;
+   width:360px;
+   border-radius: 20px;
+   margin-bottom:55px;
+   padding: 10px;
+}
+
+.hero1imgtx{
+bottom: 100px;
+left: 25px ;
+color: white;
+font-size: 30px;
+text-decoration: none;
+
+}
+
+.img2{
+    justify-self: center;
+border-radius: 20px;
+margin-bottom:55px;
+  height:500px;
+    width: 400px;
+     margin-right: 20px;
+
+}
+
+.img2tx{
+bottom: 100px;
+left: 25px ;
+color: white;
+font-size: 30px;
+text-decoration: none;
+
+
+}
+
+
+/* Visual imgdiv */
+.imgdiv{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    
+   
+}
+
+.bigh1{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.bnt{
+       padding-bottom:10px ;
+}
+.smlbtn{
+    width: 100px;
+    height: 40px;
+    background-color:#fff;
+    border-radius:50px ;
+    font-size:15px;
+    border-style: none;
+    margin: 5px;
+    padding: 5px,15px ;
+    cursor: pointer;
+}
+.smlbtn:hover{
+    background-color: #ccc;
+    border-radius: 1rem;
+    border: 5px solid #fff;
+    
+}
+.plan{
+display: flex;
+justify-content: space-evenly;
+}
+.img3{
+    height: 100%;;
+    width: 100%;
+    padding: 10px ;
+    border-radius: 25px;
+}
+
+.mimi{
+display:flex ;
+/* justify-content: center;
+align-items: center; */
+flex-wrap:wrap;
+}
+.minipic{
+
+height: 300px;
+width: 300px;
+padding: 5px;
+border-radius:25px;
+border-color: white;
+}
+
+
+.bigbtn1{
+
+height: 50px;
+width: 120px;
+    border-radius:25px;
+    border: 1px solid rgb(209, 212, 11);
+background-color:#ffc20e;
+color: black;
+font-size: 15px;
+    text-align: center;
+
+
+
+}
+.bigbtn1:hover{
+   background-color: rgb(176, 64, 0);
+      border-radius:25px;
+    border: 1px solid rgb(176, 64, 0);
+    color: white;
+
+}
+
+.bigbtn2{
+margin:10px 50%;
+height: 50px;
+width: 100px;
+    border-radius:25px;
+    border: 1px solid black;
+background-color:white;
+color: black;
+font-size: 15px;
+    text-align: center;
+
+}
+
+.bigbtn2:hover{
+   background-color: #050505;
+      border-radius:25px;
+    border: 1px solid black;
+    color: white;
+
+}
+
+.footer{
+background-color: #36a9c7;
+ color: white;
+font-size: 18px;
+
+}
+.footer a{
+    color: white;
+}
+.footer2{
+    width: 100%;
+ /* max-width: 1000px; */
+  /* height: 1000px; */
+  margin:30px 0px 10px 0;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
+gap: 150px;
+padding-top:25px;
+text-decoration: none;
+
+}
+
+.langu{
+/* width: 150px; */
+
+}
+.langutx{
+    width: 120px;
+    gap: 15px;
+}
+
+.footnav{
+    display: flex;
+    /* width: 25rem; */
+    
+    justify-content: space-evenly;
+    gap: 150px;
+    align-items: center;
+}
+.find{
+  display:inline-flexbox;
+ 
+    justify-content: space-between;
+   padding: ;
+}
+
+.find li{
+max: width 200px;;
+    display: flex;
+    flex-wrap: 2;
+    justify-content: space-around;
+
+}
+/* .find i{
+
+margin-right:15px ;
+
+} */
+ .para{
+font-size: 12px;
+line-height: 1.5rem;;
+padding-top: 5px;
+margin-top: 5px;
+font-display: swap;
+text-align: left;
+word-break: auto-phrase;
+ }
